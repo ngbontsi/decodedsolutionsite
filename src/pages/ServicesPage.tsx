@@ -44,7 +44,7 @@ export default function ServicesPage() {
       <section className="section">
         <div className="container">
           <div className="services-detail">
-            {services.map((service, index) => (
+            {services.map((service) => (
               <div className="service-detail-item" key={service.title}>
                 <div className="service-visual" style={{ background: service.gradient }}>
                   {service.icon}

@@ -1,33 +1,28 @@
 export default function PortfolioPage() {
   const projects = [
     {
-      title: 'Local Business E-Commerce Platform',
-      description: 'Built a complete online store with payment integration, inventory management, and mobile responsiveness.',
-      gradient: 'linear-gradient(135deg, #1E3A8A 0%, #3B82F6 100%)',
-      icon: '🌐',
-      tags: ['Web Dev', 'E-Commerce'],
+      title: 'Fresh Cuts Butchery',
+      description: 'A full e-commerce platform for a local butchery. Product catalog with category filtering, shopping cart, wishlist, and 2-step checkout with delivery or pickup options.',
+      gradient: 'linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%)',
+      icon: '🥩',
+      tags: ['React', 'Vite', 'E-Commerce'],
+      liveUrl: 'https://ngbontsi.github.io/decodedsolutions/butcher-shop/',
     },
     {
-      title: 'Community Service App',
-      description: 'Developed a cross-platform app connecting local service providers with community members.',
-      gradient: 'linear-gradient(135deg, #059669 0%, #10B981 100%)',
-      icon: '📱',
-      tags: ['Mobile', 'Community'],
+      title: 'Guesthouse Booking System',
+      description: 'A complete guesthouse booking platform. Property browsing, room selection, date picker with guest count, live booking summary, and reservation confirmation.',
+      gradient: 'linear-gradient(135deg, #26de81 0%, #20bf6b 100%)',
+      icon: '🏡',
+      tags: ['React', 'Vite', 'Booking'],
+      liveUrl: 'https://ngbontsi.github.io/decodedsolutions/guesthouse-client/',
     },
     {
-      title: 'Digital Transformation Project',
-      description: 'Helped a traditional business transition to digital operations, including cloud migration and training.',
-      gradient: 'linear-gradient(135deg, #7C3AED 0%, #A78BFA 100%)',
-      icon: '💻',
-      tags: ['Consulting', 'Training'],
-    },
-    {
-      title: 'Decoded Platform Dashboard',
-      description: 'Internal admin dashboard for managing users, monitoring services, and tracking business analytics across the Decoded platform.',
+      title: 'Admin Dashboard',
+      description: 'Internal admin dashboard for managing users, monitoring services, tracking business analytics across the Decoded platform.',
       gradient: 'linear-gradient(135deg, #6366F1 0%, #8B5CF6 100%)',
       icon: '📊',
-      tags: ['React', 'Spring Boot', 'Microservices'],
-      liveUrl: 'https://ngbontsi.github.io/decodedsolutions/',
+      tags: ['React', 'Dashboard', 'Analytics'],
+      liveUrl: 'https://ngbontsi.github.io/decodedsolutions/dashboard/',
     },
   ];
 
@@ -66,7 +61,7 @@ export default function PortfolioPage() {
             ))}
           </div>
           <div style={{ textAlign: 'center', marginTop: '2rem', color: 'var(--gray)' }}>
-            <p><strong>More projects coming soon.</strong> Our portfolio is growing as we continue to serve our community.</p>
+            <p><strong>These are live working demos.</strong> Click "View Live Demo" to interact with each project.</p>
           </div>
         </div>
       </section>
